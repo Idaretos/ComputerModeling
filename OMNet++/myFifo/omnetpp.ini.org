@@ -1,0 +1,26 @@
+[General]
+network = fifonet
+sim-time-limit = 1h
+cpu-time-limit = 300s
+
+cmdenv-express-mode = false
+cmdenv-config-name = config1
+cmdenv-interactive = true
+
+[Config config1]
+description = "low job arrival rate = 0.1 load"
+**.gen.sendIaTime = exponential(1s)
+**.gen.serviceTime = exponential(0.1s)
+output-vector-file = fifo-r1.vec
+
+[Config config2]
+description = "medium job arrival rate = 0.5 load"
+**.gen.sendIaTime = exponential(0.2s)
+**.gen.serviceTime = exponential(0.1s)
+output-vector-file = fifo-r2.vec
+
+[Config config3]
+description = "high job arrival rate = 0.83 load"
+**.gen.sendIaTime = exponential(0.12s)
+**.gen.serviceTime = exponential(0.1s)
+output-vector-file = fifo-r3.vec

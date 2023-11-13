@@ -1,0 +1,285 @@
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for i386-apple-darwin11.3.0
+Reading makefiles...
+Reading makefile `Makefile'...
+Reading makefile `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/Makefile.inc' (search path) (no ~ expansion)...
+Reading makefile `out/clang-release//fifo.o.d' (search path) (don't care) (no ~ expansion)...
+Reading makefile `out/clang-release//gen.o.d' (search path) (don't care) (no ~ expansion)...
+Reading makefile `out/clang-release//sink.o.d' (search path) (don't care) (no ~ expansion)...
+Updating makefiles....
+ Considering target file `out/clang-release//sink.o.d'.
+  Looking for an implicit rule for `out/clang-release//sink.o.d'.
+  Trying pattern rule with stem `sink.o.d'.
+  Trying implicit prerequisite `out/clang-release//out/clang-release//sink.o.d'.
+  Trying pattern rule with stem `sink.o.d'.
+  Trying implicit prerequisite `out/clang-release//sink.o.d,v'.
+  Trying pattern rule with stem `sink.o.d'.
+  Trying implicit prerequisite `out/clang-release//RCS/sink.o.d,v'.
+  Trying pattern rule with stem `sink.o.d'.
+  Trying implicit prerequisite `out/clang-release//RCS/sink.o.d'.
+  Trying pattern rule with stem `sink.o.d'.
+  Trying implicit prerequisite `out/clang-release//s.sink.o.d'.
+  Trying pattern rule with stem `sink.o.d'.
+  Trying implicit prerequisite `out/clang-release//SCCS/s.sink.o.d'.
+  No implicit rule found for `out/clang-release//sink.o.d'.
+  Finished prerequisites of target file `out/clang-release//sink.o.d'.
+ No need to remake target `out/clang-release//sink.o.d'.
+ Considering target file `out/clang-release//gen.o.d'.
+  Looking for an implicit rule for `out/clang-release//gen.o.d'.
+  Trying pattern rule with stem `gen.o.d'.
+  Trying implicit prerequisite `out/clang-release//out/clang-release//gen.o.d'.
+  Trying pattern rule with stem `gen.o.d'.
+  Trying implicit prerequisite `out/clang-release//gen.o.d,v'.
+  Trying pattern rule with stem `gen.o.d'.
+  Trying implicit prerequisite `out/clang-release//RCS/gen.o.d,v'.
+  Trying pattern rule with stem `gen.o.d'.
+  Trying implicit prerequisite `out/clang-release//RCS/gen.o.d'.
+  Trying pattern rule with stem `gen.o.d'.
+  Trying implicit prerequisite `out/clang-release//s.gen.o.d'.
+  Trying pattern rule with stem `gen.o.d'.
+  Trying implicit prerequisite `out/clang-release//SCCS/s.gen.o.d'.
+  No implicit rule found for `out/clang-release//gen.o.d'.
+  Finished prerequisites of target file `out/clang-release//gen.o.d'.
+ No need to remake target `out/clang-release//gen.o.d'.
+ Considering target file `out/clang-release//fifo.o.d'.
+  Looking for an implicit rule for `out/clang-release//fifo.o.d'.
+  Trying pattern rule with stem `fifo.o.d'.
+  Trying implicit prerequisite `out/clang-release//out/clang-release//fifo.o.d'.
+  Trying pattern rule with stem `fifo.o.d'.
+  Trying implicit prerequisite `out/clang-release//fifo.o.d,v'.
+  Trying pattern rule with stem `fifo.o.d'.
+  Trying implicit prerequisite `out/clang-release//RCS/fifo.o.d,v'.
+  Trying pattern rule with stem `fifo.o.d'.
+  Trying implicit prerequisite `out/clang-release//RCS/fifo.o.d'.
+  Trying pattern rule with stem `fifo.o.d'.
+  Trying implicit prerequisite `out/clang-release//s.fifo.o.d'.
+  Trying pattern rule with stem `fifo.o.d'.
+  Trying implicit prerequisite `out/clang-release//SCCS/s.fifo.o.d'.
+  No implicit rule found for `out/clang-release//fifo.o.d'.
+  Finished prerequisites of target file `out/clang-release//fifo.o.d'.
+ No need to remake target `out/clang-release//fifo.o.d'.
+ Considering target file `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/Makefile.inc'.
+  Looking for an implicit rule for `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/Makefile.inc'.
+  Trying pattern rule with stem `Makefile.inc'.
+  Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/out/clang-release//Makefile.inc'.
+  Trying pattern rule with stem `Makefile.inc'.
+  Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/Makefile.inc,v'.
+  Trying pattern rule with stem `Makefile.inc'.
+  Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/RCS/Makefile.inc,v'.
+  Trying pattern rule with stem `Makefile.inc'.
+  Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/RCS/Makefile.inc'.
+  Trying pattern rule with stem `Makefile.inc'.
+  Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/s.Makefile.inc'.
+  Trying pattern rule with stem `Makefile.inc'.
+  Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/SCCS/s.Makefile.inc'.
+  No implicit rule found for `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/Makefile.inc'.
+  Finished prerequisites of target file `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/Makefile.inc'.
+ No need to remake target `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/Makefile.inc'.
+ Considering target file `Makefile'.
+  Looking for an implicit rule for `Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `out/clang-release//Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `s.Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `SCCS/s.Makefile'.
+  No implicit rule found for `Makefile'.
+  Finished prerequisites of target file `Makefile'.
+ No need to remake target `Makefile'.
+Updating goal targets....
+Considering target file `all'.
+ File `all' does not exist.
+  Considering target file `myFifo'.
+   Looking for an implicit rule for `myFifo'.
+   Trying pattern rule with stem `myFifo'.
+   Trying implicit prerequisite `out/clang-release//myFifo'.
+   Found an implicit rule for `myFifo'.
+    Considering target file `out/clang-release//myFifo'.
+      Considering target file `out/clang-release//fifo.o'.
+       Looking for an implicit rule for `out/clang-release//fifo.o'.
+       Trying pattern rule with stem `fifo.o'.
+       Trying implicit prerequisite `out/clang-release//out/clang-release//fifo.o'.
+       Trying pattern rule with stem `fifo'.
+       Trying implicit prerequisite `fifo.cc'.
+       Trying rule prerequisite `out/clang-release//.last-copts'.
+       Trying rule prerequisite `msgheaders'.
+       Trying rule prerequisite `smheaders'.
+       Found an implicit rule for `out/clang-release//fifo.o'.
+        Considering target file `fifo.cc'.
+         Looking for an implicit rule for `fifo.cc'.
+         Trying pattern rule with stem `fifo.cc'.
+         Trying implicit prerequisite `out/clang-release//fifo.cc'.
+         Trying pattern rule with stem `fifo.cc'.
+         Trying implicit prerequisite `fifo.cc,v'.
+         Trying pattern rule with stem `fifo.cc'.
+         Trying implicit prerequisite `RCS/fifo.cc,v'.
+         Trying pattern rule with stem `fifo.cc'.
+         Trying implicit prerequisite `RCS/fifo.cc'.
+         Trying pattern rule with stem `fifo.cc'.
+         Trying implicit prerequisite `s.fifo.cc'.
+         Trying pattern rule with stem `fifo.cc'.
+         Trying implicit prerequisite `SCCS/s.fifo.cc'.
+         No implicit rule found for `fifo.cc'.
+         Finished prerequisites of target file `fifo.cc'.
+        No need to remake target `fifo.cc'.
+        Considering target file `out/clang-release//.last-copts'.
+         Looking for an implicit rule for `out/clang-release//.last-copts'.
+         Trying pattern rule with stem `.last-copts'.
+         Trying implicit prerequisite `out/clang-release//out/clang-release//.last-copts'.
+         Trying pattern rule with stem `.last-copts'.
+         Trying implicit prerequisite `out/clang-release//.last-copts,v'.
+         Trying pattern rule with stem `.last-copts'.
+         Trying implicit prerequisite `out/clang-release//RCS/.last-copts,v'.
+         Trying pattern rule with stem `.last-copts'.
+         Trying implicit prerequisite `out/clang-release//RCS/.last-copts'.
+         Trying pattern rule with stem `.last-copts'.
+         Trying implicit prerequisite `out/clang-release//s..last-copts'.
+         Trying pattern rule with stem `.last-copts'.
+         Trying implicit prerequisite `out/clang-release//SCCS/s..last-copts'.
+         No implicit rule found for `out/clang-release//.last-copts'.
+         Finished prerequisites of target file `out/clang-release//.last-copts'.
+        No need to remake target `out/clang-release//.last-copts'.
+        Considering target file `msgheaders'.
+         File `msgheaders' does not exist.
+         Finished prerequisites of target file `msgheaders'.
+        Must remake target `msgheaders'.
+        Successfully remade target file `msgheaders'.
+        Considering target file `smheaders'.
+         File `smheaders' does not exist.
+         Finished prerequisites of target file `smheaders'.
+        Must remake target `smheaders'.
+        Successfully remade target file `smheaders'.
+        Pruning file `fifo.cc'.
+        Considering target file `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h'.
+         Looking for an implicit rule for `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h'.
+         Trying pattern rule with stem `omnetpp.h'.
+         Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/out/clang-release//omnetpp.h'.
+         Trying pattern rule with stem `omnetpp.h'.
+         Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h,v'.
+         Trying pattern rule with stem `omnetpp.h'.
+         Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/RCS/omnetpp.h,v'.
+         Trying pattern rule with stem `omnetpp.h'.
+         Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/RCS/omnetpp.h'.
+         Trying pattern rule with stem `omnetpp.h'.
+         Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/s.omnetpp.h'.
+         Trying pattern rule with stem `omnetpp.h'.
+         Trying implicit prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/SCCS/s.omnetpp.h'.
+         No implicit rule found for `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h'.
+         Finished prerequisites of target file `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h'.
+        No commands for `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h' and no prerequisites actually changed.
+        No need to remake target `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h'.
+       Finished prerequisites of target file `out/clang-release//fifo.o'.
+       Prerequisite `fifo.cc' is older than target `out/clang-release//fifo.o'.
+       Prerequisite `out/clang-release//.last-copts' is older than target `out/clang-release//fifo.o'.
+       Prerequisite `msgheaders' is order-only for target `out/clang-release//fifo.o'.
+       Prerequisite `smheaders' is order-only for target `out/clang-release//fifo.o'.
+       Prerequisite `fifo.cc' is older than target `out/clang-release//fifo.o'.
+       Prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h' is older than target `out/clang-release//fifo.o'.
+      No need to remake target `out/clang-release//fifo.o'.
+      Considering target file `out/clang-release//gen.o'.
+       Looking for an implicit rule for `out/clang-release//gen.o'.
+       Trying pattern rule with stem `gen.o'.
+       Trying implicit prerequisite `out/clang-release//out/clang-release//gen.o'.
+       Trying pattern rule with stem `gen'.
+       Trying implicit prerequisite `gen.cc'.
+       Trying rule prerequisite `out/clang-release//.last-copts'.
+       Trying rule prerequisite `msgheaders'.
+       Trying rule prerequisite `smheaders'.
+       Found an implicit rule for `out/clang-release//gen.o'.
+        Considering target file `gen.cc'.
+         Looking for an implicit rule for `gen.cc'.
+         Trying pattern rule with stem `gen.cc'.
+         Trying implicit prerequisite `out/clang-release//gen.cc'.
+         Trying pattern rule with stem `gen.cc'.
+         Trying implicit prerequisite `gen.cc,v'.
+         Trying pattern rule with stem `gen.cc'.
+         Trying implicit prerequisite `RCS/gen.cc,v'.
+         Trying pattern rule with stem `gen.cc'.
+         Trying implicit prerequisite `RCS/gen.cc'.
+         Trying pattern rule with stem `gen.cc'.
+         Trying implicit prerequisite `s.gen.cc'.
+         Trying pattern rule with stem `gen.cc'.
+         Trying implicit prerequisite `SCCS/s.gen.cc'.
+         No implicit rule found for `gen.cc'.
+         Finished prerequisites of target file `gen.cc'.
+        No need to remake target `gen.cc'.
+        Pruning file `out/clang-release//.last-copts'.
+        Pruning file `msgheaders'.
+        Pruning file `smheaders'.
+        Pruning file `gen.cc'.
+        Pruning file `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h'.
+       Finished prerequisites of target file `out/clang-release//gen.o'.
+       Prerequisite `gen.cc' is older than target `out/clang-release//gen.o'.
+       Prerequisite `out/clang-release//.last-copts' is older than target `out/clang-release//gen.o'.
+       Prerequisite `msgheaders' is order-only for target `out/clang-release//gen.o'.
+       Prerequisite `smheaders' is order-only for target `out/clang-release//gen.o'.
+       Prerequisite `gen.cc' is older than target `out/clang-release//gen.o'.
+       Prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h' is older than target `out/clang-release//gen.o'.
+      No need to remake target `out/clang-release//gen.o'.
+      Considering target file `out/clang-release//sink.o'.
+       Looking for an implicit rule for `out/clang-release//sink.o'.
+       Trying pattern rule with stem `sink.o'.
+       Trying implicit prerequisite `out/clang-release//out/clang-release//sink.o'.
+       Trying pattern rule with stem `sink'.
+       Trying implicit prerequisite `sink.cc'.
+       Trying rule prerequisite `out/clang-release//.last-copts'.
+       Trying rule prerequisite `msgheaders'.
+       Trying rule prerequisite `smheaders'.
+       Found an implicit rule for `out/clang-release//sink.o'.
+        Considering target file `sink.cc'.
+         Looking for an implicit rule for `sink.cc'.
+         Trying pattern rule with stem `sink.cc'.
+         Trying implicit prerequisite `out/clang-release//sink.cc'.
+         Trying pattern rule with stem `sink.cc'.
+         Trying implicit prerequisite `sink.cc,v'.
+         Trying pattern rule with stem `sink.cc'.
+         Trying implicit prerequisite `RCS/sink.cc,v'.
+         Trying pattern rule with stem `sink.cc'.
+         Trying implicit prerequisite `RCS/sink.cc'.
+         Trying pattern rule with stem `sink.cc'.
+         Trying implicit prerequisite `s.sink.cc'.
+         Trying pattern rule with stem `sink.cc'.
+         Trying implicit prerequisite `SCCS/s.sink.cc'.
+         No implicit rule found for `sink.cc'.
+         Finished prerequisites of target file `sink.cc'.
+        No need to remake target `sink.cc'.
+        Pruning file `out/clang-release//.last-copts'.
+        Pruning file `msgheaders'.
+        Pruning file `smheaders'.
+        Pruning file `sink.cc'.
+        Pruning file `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h'.
+       Finished prerequisites of target file `out/clang-release//sink.o'.
+       Prerequisite `sink.cc' is older than target `out/clang-release//sink.o'.
+       Prerequisite `out/clang-release//.last-copts' is older than target `out/clang-release//sink.o'.
+       Prerequisite `msgheaders' is order-only for target `out/clang-release//sink.o'.
+       Prerequisite `smheaders' is order-only for target `out/clang-release//sink.o'.
+       Prerequisite `sink.cc' is older than target `out/clang-release//sink.o'.
+       Prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/include/omnetpp.h' is older than target `out/clang-release//sink.o'.
+      No need to remake target `out/clang-release//sink.o'.
+      Pruning file `Makefile'.
+      Pruning file `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/Makefile.inc'.
+     Finished prerequisites of target file `out/clang-release//myFifo'.
+     Prerequisite `out/clang-release//fifo.o' is older than target `out/clang-release//myFifo'.
+     Prerequisite `out/clang-release//gen.o' is older than target `out/clang-release//myFifo'.
+     Prerequisite `out/clang-release//sink.o' is older than target `out/clang-release//myFifo'.
+     Prerequisite `Makefile' is older than target `out/clang-release//myFifo'.
+     Prerequisite `/Users/kevin/vscode/cpp/_include/omnetpp-6.0.1/Makefile.inc' is older than target `out/clang-release//myFifo'.
+    No need to remake target `out/clang-release//myFifo'.
+   Finished prerequisites of target file `myFifo'.
+   Prerequisite `out/clang-release//myFifo' is older than target `myFifo'.
+  No need to remake target `myFifo'.
+ Finished prerequisites of target file `all'.
+Must remake target `all'.
+Successfully remade target file `all'.
+make: Nothing to be done for `all'.

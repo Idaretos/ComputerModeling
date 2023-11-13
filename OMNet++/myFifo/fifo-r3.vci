@@ -1,0 +1,32 @@
+file 671860 1697535635                                          
+version 3
+run HighArrivalRate-0-20231017-18:40:35-13186
+attr configname HighArrivalRate
+attr datetime 20231017-18:40:35
+attr datetimef 20231017-184035
+attr experiment HighArrivalRate
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network fifonet
+attr processid 13186
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config description "high job arrival rate = 0.83 load"
+config **.gen.sendIaTime exponential(0.12s)
+config **.gen.serviceTime exponential(0.1s)
+config output-vector-file fifo-r3.vec
+config network fifonet
+config sim-time-limit 2000s
+config cpu-time-limit 300s
+config cmdenv-express-mode true
+config cmdenv-interactive true
+
+vector 0 fifonet.FIFONet.sink "queueing time vector" ETV
+0	811 671048 4 66988 0.079587450457 1999.978557767585 16746 7.245603e-06 3.277039302457 9505.214283538 10313.4805686
+

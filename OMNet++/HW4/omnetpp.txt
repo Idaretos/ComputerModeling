@@ -1,0 +1,11 @@
+[General]
+network = fifonet
+sim-time-limit = 5000000s
+cpu-time-limit = 300s
+
+cmdenv-express-mode = true
+cmdenv-interactive = true
+
+**.qlenVector.record = true
+
+seed-set = ${3287, 4578, 9123}

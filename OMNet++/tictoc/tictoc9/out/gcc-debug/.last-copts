@@ -1,0 +1,1 @@
+-g -Wall   -fno-stack-protector  -DHAVE_PCAP -DXMLPARSER=expat -DWITH_PARSIM -DWITH_NETBUILDER  -I. -I/Users/cglee/ComputerModeling/omnetpp-4.5/include

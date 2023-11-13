@@ -1,0 +1,32 @@
+file 401215 1698634706                                          
+version 3
+run MediumArrivalRate-0-20231030-11:58:26-8367
+attr configname MediumArrivalRate
+attr datetime 20231030-11:58:26
+attr datetimef 20231030-115826
+attr experiment MediumArrivalRate
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network fifonet
+attr processid 8367
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config description "medium job arrival rate = 0.5 load"
+config **.gen.sendIaTime exponential(0.2s)
+config **.gen.serviceTime exponential(0.1s)
+config output-vector-file fifo-r2.vec
+config network fifonet
+config sim-time-limit 2000s
+config cpu-time-limit 300s
+config cmdenv-express-mode true
+config cmdenv-interactive true
+
+vector 0 fifonet.FIFONet.sink "queueing time vector" ETV
+0	815 400399 4 40084 0.079587450457 1999.819521925371 10021 7.245603e-06 1.489729523803 1976.1158219817 774.2524254999
+
